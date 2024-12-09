@@ -7,7 +7,7 @@ if __name__ == "__main__":
     base_dir = "/opt/ml/processing"
     
     # Read Data
-    df = pd.read_csv(f"{base_dir}/input/HumanActivity.csv")
+    df = pd.read_csv(f"{base_dir}/input/human activity11.csv")
 
     # Drop rows with Null Values (handle missing data)
     df = df.dropna()
