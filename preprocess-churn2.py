@@ -7,7 +7,7 @@ if __name__ == "__main__":
     base_dir = "/opt/ml/processing"
     #Read Data
     df = pd.read_csv(
-        f"{base_dir}/input/Human Activity99.csv"
+        f"{base_dir}/input/Human Activity999.csv"
     )
     # convert created column to datetime
     df["created"] = pd.to_datetime(df["created"])
